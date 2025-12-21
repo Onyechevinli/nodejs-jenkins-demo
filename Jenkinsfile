@@ -1,10 +1,9 @@
 pipeline {
     agent any
     
-    environment {
-        APP_NAME = 'nodejs-jenkins-demo'
-        DOCKER_IMAGE = 'your-dockerhub-username/nodejs-jenkins-demo'
-        VERSION = "${env.BUILD_ID}"
+    tools {
+        // This name MUST match the 'Name' you gave in Global Tool Configuration
+        nodejs 'NodeJS 25.2.1' 
     }
     
     stages {
