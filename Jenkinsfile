@@ -8,6 +8,13 @@ pipeline {
     }
     
     stages {
+        stage('Setup') {
+            steps {
+        sh 'git config --global http.postBuffer 524288000'
+        sh 'git config --global http.sslVerify false' // Only if you have certificate issues
+            }
+        }
+        
         stage('Checkout') {
             steps {
                 echo '📦 Checking out source code...'
