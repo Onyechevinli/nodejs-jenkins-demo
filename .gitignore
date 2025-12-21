@@ -1,0 +1,42 @@
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Docker ---
+# Exclude local data persistence folders
+.docker/
+docker-compose.override.yml
+# If you use Docker volumes mapped to local folders
+data/
+db-data/
+
+# --- Jenkins / CI ---
+# Exclude local build artifacts and workspace files
+jobConfig.xml
+.jenkins/
+workspace/
+builds/
+archive/
+
+# --- Terraform (If applicable to your infra) ---
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# --- OS / IDE Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
