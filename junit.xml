@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" errors="0" time="1.668">
+  <testsuite name="Node.js Jenkins Demo App" errors="0" failures="0" skipped="0" timestamp="2025-12-25T09:26:26" time="1.451" tests="3">
+    <testcase classname="Node.js Jenkins Demo App GET / should return welcome message" name="Node.js Jenkins Demo App GET / should return welcome message" time="0.091">
+    </testcase>
+    <testcase classname="Node.js Jenkins Demo App GET /health should return OK status" name="Node.js Jenkins Demo App GET /health should return OK status" time="0.01">
+    </testcase>
+    <testcase classname="Node.js Jenkins Demo App 404 for unknown routes" name="Node.js Jenkins Demo App 404 for unknown routes" time="0.01">
+    </testcase>
+  </testsuite>
+</testsuites>

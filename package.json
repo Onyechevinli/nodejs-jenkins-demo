@@ -26,5 +26,14 @@
   },
   "directories": {
     "test": "test"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onyechevinli/nodejs-jenkins-demo.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Onyechevinli/nodejs-jenkins-demo/issues"
+  },
+  "homepage": "https://github.com/Onyechevinli/nodejs-jenkins-demo#readme"
 }
