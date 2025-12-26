@@ -35,7 +35,7 @@ pipeline {
             }
             post {
                 always {
-                    junit '**/test-results.xml' // If you configure Jest to output JUnit format
+                    junit '**reports/junit.xml' // If you configure Jest to output JUnit format
                 }
             }
         }

@@ -8,6 +8,10 @@
     "test": "jest --reporters=default --reporters=jest-junit",
     "dev": "nodemon app.js"
   },
+  "jest-junit": {
+    "outputDirectory": "reports",
+    "outputName": "junit.xml"
+  },
   "keywords": [
     "jenkins",
     "nodejs",
